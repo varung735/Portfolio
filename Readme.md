@@ -1,1 +1,9 @@
-#Begining to work on my first Portfolio Website
+# My Portfolio
+
+
+
+## Languages Used
+
+ - HTML 5
+ - CSS 3
+
