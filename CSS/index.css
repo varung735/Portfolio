@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+/* Styles for navbar */
+
+#navContainer{
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    border-bottom: 2px solid #fff;
+    overflow: hidden;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.nav-link{
+    list-style: none;
+}
+
+a{
+    font-family: 'Lato';
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Styles for title div */
+
+.titleContainer{
+    height: 100vh;
+    background: url('../images/titleImage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Styles for about div */
+
+.aboutDiv{
+    height: 100vh;
+    background: url('../images/aboutImg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+.myself{
+    height: 50%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(229, 228, 226, 0.4);
+}
+
+.myImg{
+    height: 100%;
+    width: 70%;
+    padding: 1%;
+}
+
+.myDetails{
+    padding: 1%;
+}
+
+img[alt="potrait"]{
+    height: 100%;
+    width: 100%;
+}
+
+/* styles for education div */
+
+.education{
+    height: 100vh;
+    background: url('../images/eduImage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Styles for education div */
+
+.courses{
+    height: 100vh;
+    background: url('../images/coursesImg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Styles for projects div */
+
+.projects{
+    height: 100vh;
+    background: url('../images/projectsImg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Styles for contact div */
+
+.contact{
+    height: 100vh;
+    background: url('../images/contactImg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
